@@ -7,3 +7,6 @@ class Stack:
 
     def pop(self):
         return self.items.pop()
+
+    def is_empty(self):
+        return len(self.items) == 0
